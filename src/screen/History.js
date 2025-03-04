@@ -2,7 +2,6 @@ import {StyleSheet, Text, FlatList, View, StatusBar} from 'react-native';
 import React from 'react';
 
 export const History = ({route}) => {
-  console.log('route', route?.params.params);
 
   return (
     <View style={{flex: 1, backgroundColor: 'white'}}>
